@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('fonts/exo-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Betham';
+    src: url('fonts/bentham-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: green;
+}
+p{ font-family: 'Betham',serif;
+}
+h1, h2, h3{ font-family: 'Exo',sans-serif;
+
+}
+.container {
+	background-color: #f0f0f0;
+}
+
+.box {
+	background-color: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+}
